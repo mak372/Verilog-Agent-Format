@@ -4,7 +4,7 @@ Fine-tuning LLMs to clean up compiler-generated Verilog using LoRA + iterative Y
 
 ## What & Why
 
-The LiveHD hardware compiler generates verbose, hard-to-read Verilog — full of redundant `_GEN_` wires and unnecessary constructs. Cleaning this up manually requires experienced hardware engineers.
+The LiveHD hardware compiler generates verbose, hard-to-read Verilog full of redundant `_GEN_` wires and unnecessary constructs. Cleaning this up manually requires experienced hardware engineers.
 
 This project fine-tunes code LLMs to automate that cleanup, and uses **Yosys formal equivalence checking** as the ground truth not BLEU score, not string match, but actual logical equivalence.
 
