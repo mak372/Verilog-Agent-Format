@@ -60,5 +60,3 @@ LiveHD Verilog (verbose) → Fine-tuned LLM → Clean Verilog → Yosys Equivale
 Full paper with methodology, failure analysis, and token usage breakdown → [`report.pdf`](./capstone_report.pdf)
 
 ---
-
-*Capstone project — UC Santa Cruz, MS Computer Science, 2026*
